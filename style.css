@@ -1,0 +1,67 @@
+body {
+    background-color: #1e1e1e; /* Fundo escuro */
+    color: #d4d4d4;           /* Texto claro */
+    font-family: 'Fira Code', monospace; /* Fonte que remete a código */
+    line-height: 1.6;         /* Melhora a legibilidade */
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 40px;
+}
+
+h1, h2 {
+    color: #4fc1ff; /* Azul vibrante para títulos */
+}
+
+strong {
+    color: #ce9178; /* Cor de destaque para strings no VS Code */
+}
+
+p {
+    line-height: 1.8; /* Espaçamento melhorado entre linhas */
+}
+
+ul, li {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+ul li {
+    margin-bottom: 15px;
+}
+
+.profile-img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 3px solid #4fc1ff; /* Borda azul para match com tema */
+    box-shadow: 5px 5px 15px rgba(0,0,0,0.5);
+    margin-bottom: 20px;
+}
+
+ul li img {
+    width: 32px;
+    height: 32px;
+    border-radius: 8px;
+    object-fit: contain;
+    border: none;
+    box-shadow: none;
+    margin-bottom: 0;
+    margin-right: 10px;
+    vertical-align: middle;
+}
+
+a {
+    background-color: #333;
+    color: #9cdcfe;
+    padding: 5px 10px;
+    border-radius: 4px;
+    text-decoration: none;
+    transition: background-color 0.3s, color 0.3s; /* Transição específica */
+}
+
+a:hover {
+    background-color: #4fc1ff;
+    color: #1e1e1e;
+}
